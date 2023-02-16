@@ -1,0 +1,31 @@
+header {
+    background: url('../img/header/header-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.logo img {
+    width: 97px;
+}
+
+
+
+ul > li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+
+.menu__list-item a {
+    color: rgb(34,34,34);
+    font-weight: 500;
+}

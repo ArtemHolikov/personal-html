@@ -19,4 +19,12 @@ img {
 :root {
     font-size: 17px;
     font-family: 'Ubuntu', sans-serif;
+    --title-color: #f6c43d;
+    --subtitle-color-light: #fff;
+    --subtitle-color-dark: #222;
+    --text-color-gray: #898989;
+    --text-color-dark-white: #ffffffab;
+    --font-size-title: 14px;
+    --font-size-subtitle: 65px;
+    --font-family-borlow-condensed: 'Barlow Condensed', sans-serif;
 }

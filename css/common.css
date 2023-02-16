@@ -28,3 +28,8 @@ img {
     --font-size-subtitle: 65px;
     --font-family-borlow-condensed: 'Barlow Condensed', sans-serif;
 }
+
+h2 {
+    color: var(--title-color);
+    font-size: var(--font-size-title);
+}

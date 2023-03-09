@@ -1,31 +1,105 @@
 header {
-    background: url('../img/header/header-bg.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 30px;
+    background: url('../img/header/header-bg.webp') center right / cover no-repeat ;
+    background-position-x: 10%;
+    padding: 30px 24px 0;
+    height: 900px;
 }
 
 .logo img {
     width: 97px;
 }
 
-
-
 ul > li {
     list-style-type: none;
 }
 
 a {
+    display: block;
     text-decoration: none;
 }
 
-.menu__list {
-    display: flex;
-    align-items: center;
-    column-gap: 34px;
+.menu {
+    padding-bottom: 30px;
 }
 
-.menu__list-item a {
-    color: rgb(34,34,34);
-    font-weight: 500;
+.header-info {
+    padding-top: 90px;
+}
+
+.header-info__subtitle:not(.header-info__subtitle span) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-info__subtitle:not(.header-info__subtitle span) {
+    display: flex;
+    align-items: center;
+}
+
+.header-info__subtitle::before {
+    display: block;
+    content: '';
+    background: #1088E4;
+    height: 3px;
+    width: 7%;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.header-info__subtitle span {
+    color: #1088E4;
+    font-weight: 700;
+}
+
+.header-info__subtitle {
+    line-height: 29.7px;
+    letter-spacing: -0.324px;
+}
+
+.header-info__title {
+    color: #f6c43d;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 600;
+    font-family: 'Barlow Condensed' ,sans-serif;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    padding-top: 50px;
+}
+
+.header-info_buttons {
+    padding-top: 70px;
+}
+
+.header-info__button-learn {
+    text-transform: uppercase;
+    font-size: 16.5px;
+    letter-spacing: 0.165px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 16px 28px;
+    border-radius: 25px;
+    background-color: #1088e4;
+    width: 165px;
+    line-height: 16.5px;
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-info__button-pricing {
+    text-transform: uppercase;
+    color: #f6c43d;
+    font-size: 16.5px;
+    letter-spacing: 0.165px;
+    line-height: 16.5px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+}
+
+.header-info__button-pricing::after {
+    content: '';
+    display: block;
+    background: url('../img/header/')
 }

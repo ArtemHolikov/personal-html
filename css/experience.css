@@ -1,0 +1,8 @@
+.experience__title {
+    display: flex;
+    justify-content: center;
+}
+
+.experience__subtitle {
+    text-align: center;
+}

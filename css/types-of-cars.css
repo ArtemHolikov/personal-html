@@ -1,0 +1,58 @@
+.types-of-cars {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 110px;
+}
+
+.cars-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.car-type {
+    padding: 55px 27px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2%;
+}
+
+.car-type__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgb(34, 34, 34);
+    padding-top: 20px;
+}
+
+.car-type__desc {
+    padding: 25px 0 70px;
+    color: rgb(137,137,137);
+    font-size: 17px;
+    line-height: 27.54px;
+}
+
+.car-type__learn-more-btn {
+    text-transform: uppercase;
+    font-size: 16.5px;
+    letter-spacing: 0.165px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 16px 28px;
+    border-radius: 25px;
+    background-color: #f6c43d;
+    width: 165px;
+    line-height: 16.5px;
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.car-type img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}

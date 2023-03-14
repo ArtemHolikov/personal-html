@@ -1,3 +1,7 @@
+.experience-section {
+    padding: 0 24px 90px;
+}
+
 .experience__title {
     display: flex;
     justify-content: center;
@@ -5,4 +9,76 @@
 
 .experience__subtitle {
     text-align: center;
+}
+
+.experience__desc {
+    color: rgb(137, 137, 137);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+    text-align: center;
+}
+
+.experience-block {
+    padding: 39px 43px;
+    color: #898989;
+    line-height: 27.54px;
+    border-radius: 6px;
+}
+
+.experience-block-info {
+    padding: 39px 43px;
+}
+
+.experience-block_2010 {
+    background-color: rgb(2, 2, 4);
+}
+
+.experience-block-info__year {
+    color: #fff;
+    font-size: 90px;
+    letter-spacing: -1.4px;
+    line-height: 90px;
+    font-family: var(--font-family-borlow-condensed);
+    word-break: break-word;
+}
+
+.experience-blocks {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.divider {
+    height: 3px;
+    width: 11px;
+    display: block;
+    background-color: rgb(246, 196, 61);
+    margin: 15px 0;
+}
+
+.experience-block_2012 {
+    background-color: #fff;
+}
+
+.experience-block_2012 span {
+    color: #222;
+}
+
+.experience-block_2012 .divider,
+.experience-block_2019 .divider {
+    background-color: #1088E4;
+}
+
+.experience-block_2015 {
+    background-color: #05071C;
+}
+
+.experience-block_2019 {
+    background-color: #DDE2E9;   
+}
+
+.experience-block_2019 span {
+    color: #222;
 }
